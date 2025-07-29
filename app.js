@@ -13,6 +13,7 @@ function agregarAmigo(){
         listaAmigos.push(document.getElementById("amigo").value);
         console.log(`Elementos de la lista: ${listaAmigos}`);
         limpiar();
+        listaEnPantalla();
     }
 }
 //limpiar cuadro de texto
@@ -21,5 +22,10 @@ function limpiar(){
 }
 //imprimir lista en pantalla id=listaAmigos
 function listaEnPantalla(){
-    
+    let listHTML = document.getElementById("listaAmigos");
+    listHTML.innerHTML = "";
+    for (let index = 0; index < listaAmigos.length; index++) {
+        listHTML.innerHTML += `<li>${listaAmigos[index]}</li`;
+        
+    }
 }
