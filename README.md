@@ -10,9 +10,11 @@ Esta aplicación te permite ingresar los nombres de tus amigos para posteriormen
   
   ![funcion-añadir](assets/funcion-añadir.gif)
 
-- Validar entrada: Si no escribes nada, al momento de presionar **Añadir** se te mandará un mensaje de alerta, al igual que si decides hacer click en **Sortear amigo** sin antes haber añadido nombres a la lista.
+- Validar entrada: Si no escribes nada, al momento de presionar **Añadir** se te mandará un mensaje de alerta.
 
   ![mostrar-alerta](assets/mostrar-alerta.gif)
+
+   Al igual que si decides hacer click en **Sortear amigo** sin antes haber añadido nombres a la lista.
   
   ![alerta-sortear-amigo](assets/alerta-sortear-amigo.gif)
 
